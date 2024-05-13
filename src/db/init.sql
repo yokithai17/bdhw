@@ -12,6 +12,7 @@ CREATE TABLE test.DELIVERY_COMPANY (
 CREATE TABLE IF NOT EXISTS test.DELIVERY_COMPANY (
     id SERIAL NOT NULL,
     name VARCHAR NOT NULL,
+    delivery_price INTEGER NOT NULL,
     CONSTRAINT pk_delivery_company PRIMARY KEY (id)
 );
 
@@ -35,8 +36,8 @@ CREATE TABLE IF NOT EXISTS test.ORDER_GOODS (
 
 CREATE TABLE IF NOT EXISTS test.PAYMENTS (
     id SERIAL  NOT NULL,
-    delivery_price INTEGER  NOT NULL,
-    goods_price INTEGER  NOT NULL,
+    delivery_price INTEGER,
+    goods_price INTEGER,
     CONSTRAINT pk_payments PRIMARY KEY (id)
 );
 
@@ -81,6 +82,7 @@ CREATE TABLE IF NOT EXISTS test.GOODS_DESCRIPTION (
     id SERIAL  NOT NULL,
     name VARCHAR  NOT NULL,
     fabricator_Id INTEGER  NOT NULL,
+    price INTEGER,
     CONSTRAINT pk_desription PRIMARY KEY (id)
 );
 

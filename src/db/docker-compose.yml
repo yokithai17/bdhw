@@ -16,7 +16,7 @@ services:
       - ${POSTGRES_PORT}:5432
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./db_init.sql:/docker-entrypoint-initdb.d/db_init.sql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     restart: unless-stopped
 
   pgadmin:
