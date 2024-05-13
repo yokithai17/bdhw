@@ -1,10 +1,18 @@
 
 # Манипуляция с БД
-[Создание базы данных](https://github.com/yokithai17/bdhw/blob/main/src/db/db_init.sql)
+[Создание базы данных](https://github.com/yokithai17/bdhw/blob/main/src/db/init.sql)
 
-[Добавление данных](https://github.com/yokithai17/bdhw/blob/main/src/dms/db_data.sql)
+[Добавление данных](https://github.com/yokithai17/bdhw/blob/main/src/dms/data.sql)
 
-[Запросы](https://github.com/yokithai17/bdhw/blob/main/src/dms/db_request.sql)
+[Запросы](https://github.com/yokithai17/bdhw/blob/main/src/dms/request.sql)
+
+[Представление](https://github.com/yokithai17/bdhw/blob/main/src/dms/view.sql)
+
+[Функции](https://github.com/yokithai17/bdhw/blob/main/src/dms/function.sql)
+
+[Триггеры](https://github.com/yokithai17/bdhw/blob/main/src/dms/trigger.sql)
+
+[Индексы](https://github.com/yokithai17/bdhw/blob/main/src/dms/index.sql)
 
 # Модели
 ### концептуальная модель
